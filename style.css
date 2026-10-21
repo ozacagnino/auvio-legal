@@ -1,0 +1,12 @@
+:root{--bg:#F3EDE2;--surface:#FBF7F0;--ink:#1A150F;--ink2:#6B6055;--accent:#D9522A;--line:rgba(26,21,15,0.16)}
+@media(prefers-color-scheme:dark){:root{--bg:#1A150F;--surface:#241E17;--ink:#F3EDE2;--ink2:#B9AE9C;--line:rgba(243,237,226,0.18)}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Work Sans",system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.55}
+main{max-width:720px;margin:0 auto;padding:40px 20px 80px}
+h1,h2{font-family:Anton,Impact,"Arial Narrow Bold",sans-serif;font-weight:400;text-transform:uppercase;line-height:.95;letter-spacing:0}
+h1{font-size:48px;margin:8px 0 24px}h2{font-size:26px;margin:40px 0 12px}
+a{color:var(--ink);text-decoration-color:var(--accent);text-underline-offset:3px}a:hover{color:var(--accent)}
+li{margin:6px 0}strong{font-weight:600}
+nav{display:flex;gap:18px;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line);max-width:720px;margin:0 auto}
+nav .brand{font-family:Anton,Impact,sans-serif;font-size:22px;text-transform:uppercase;text-decoration:none}
+nav .brand span{color:var(--accent)}nav a{font-size:15px;color:var(--ink2);text-decoration:none}nav a:hover{color:var(--ink)}
+footer{max-width:720px;margin:0 auto;padding:24px 20px 60px;color:var(--ink2);font-size:14px;border-top:1px solid var(--line)}
